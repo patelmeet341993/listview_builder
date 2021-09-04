@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:listview_builder/screens/list_demo.dart';
+import 'package:listview_builder/screens/rest_api_example.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: ListDemo(),
+      home: RestApiExample(),
     );
   }
 }
